@@ -14,3 +14,9 @@ steps:
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
+  - title: New step
+    actions:
+      - type: createIssue
+        title: A new issue
+        body: a-response-file.md
+      - type: createLabel
